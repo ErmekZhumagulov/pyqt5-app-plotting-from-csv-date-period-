@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>670</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Сформировать график</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCalendarWidget" name="fromDate">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>321</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="tilDate">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>321</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="formPlot">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>220</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сформировать</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dropDownListSensors">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>670</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <addaction name="openFile"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_4">
+   <property name="text">
+    <string>Участок нормализации</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Пастеризованные сливки</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Участок рекомбинации</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Пастеризатор</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Пастеризованное молоко</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Кисломолочные продукты</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Производство кефиров</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>Участок смешивания</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>Участок фасовки</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>СИП 2-к</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>СИП 3-к</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>ПЭТ линия</string>
+   </property>
+  </action>
+  <action name="actionPB1TT60">
+   <property name="text">
+    <string>PB1TT60</string>
+   </property>
+  </action>
+  <action name="openFile">
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
