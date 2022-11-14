@@ -1,6 +1,6 @@
 import numpy as np
-from PyQt5 import uic
-from PyQt5.QtWidgets import QApplication, QFileDialog, QMessageBox
+from PyQt6 import uic
+from PyQt6.QtWidgets import QApplication, QFileDialog, QMessageBox
 import csv
 import matplotlib.pyplot as plt
 from datetime import timedelta, datetime
